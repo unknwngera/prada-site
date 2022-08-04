@@ -1,23 +1,21 @@
 import React from 'react'
 import heart from './heart.png'
 import bag from './bag.png'
+import './Header.css'
 const Header = () => {
     return (
-        <div>
-            <div>
+        <div className='header'>
+            <div className='shop-sale-btn'>
                 <a href="#">SHOP THE SALE COLLECTION</a>
             </div>
-            <div>
+            <div className='login'>
                 <a href="#">Sign in </a>/<a href="#"> Register</a>
             </div>
-            <div>
+            <div className='fav'>
                 <a href="#"><img src={heart} alt="heart" /></a>
             </div>
-            <div>
-                <a href="#"><img src={bag} alt="bag" /></a>
-            </div>
-            <div>
-                <a href="#">Bag</a>
+            <div className='bag'>
+                <a href="#"><img id='bag-img' src={bag} alt="bag" />Bag</a>
             </div>
         </div>
     )

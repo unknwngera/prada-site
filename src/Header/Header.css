@@ -1,0 +1,75 @@
+.header {
+    background-color: #C4C4C4;
+    display: block;
+    width: 1440px;
+    height: 50px;
+
+}
+
+.shop-sale-btn {
+    position: absolute;
+    width: 192px;
+    height: 17px;
+    top: 16px;
+    left: 624px;
+    border-bottom: 1px solid;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.login {
+    position: absolute;
+    width: 109px;
+    height: 19px;
+    left: 1093px;
+    top: 17px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.fav {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 1217px;
+    top: 19px;
+}
+
+.bag {
+    position: absolute;
+    width: 44px;
+    height: 19px;
+    left: 1253px;
+    top: 17px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+
+#bag-img {
+    height: 15px;
+    top: 18px;
+}
+
+.bag>a {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,45 @@
+.logo {
+    display: block;
+    width: 166px;
+    height: 72px;
+    padding-top: 21px;
+    margin-left: 637px;
+}
+
+.logo-text {
+    font-family: 'Modern No. 20';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 51px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.navbar-area {
+    display: block;
+    width: 727px;
+    height: 38px;
+    margin-left: 364px;
+    padding-top: 19px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Modern No. 20';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.bigImg {
+    display: block;
+    margin-left: 102px;
+    padding-top: 18px;
+    width: 1254px;
+    height: 689px;
+}
