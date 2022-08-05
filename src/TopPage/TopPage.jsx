@@ -1,9 +1,9 @@
 import React from 'react'
 import bigImg from './big-img.png'
 import bigImg2x from './big-img@2x.png'
-import './Main.css'
+import './TopPage.css'
 
-const Main = () => {
+const TopPage = () => {
     return (
         <div>
             <div className="topscreen">
@@ -33,4 +33,4 @@ const Main = () => {
     )
 }
 
-export default Main
+export default TopPage

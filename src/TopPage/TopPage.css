@@ -1,0 +1,95 @@
+.logo {
+    display: block;
+    width: 166px;
+    height: 72px;
+    padding-top: 21px;
+    margin-left: 637px;
+}
+
+.logo-text {
+    font-family: 'Modern No. 20';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 51px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.navbar-area {
+    display: block;
+    width: 727px;
+    height: 38px;
+    margin-left: 364px;
+    padding-top: 19px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Modern No. 20';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.bigImg {
+    display: block;
+    margin-left: 102px;
+    padding-top: 18px;
+    width: 1236px;
+    height: 707px;
+}
+
+.summer {
+    display: block;
+    width: 471px;
+    height: 269px;
+    margin-left: 484px;
+    padding-top: 26px;
+    padding-bottom: 41px;
+    text-align: center;
+}
+
+.summer-title {
+    font-family: 'Modern No. 20';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+.summer-description {
+    padding-top: 24px;
+    padding-bottom: 32px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.summer-link {
+    display: block;
+    width: 224px;
+    height: 57px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 57px;
+}
