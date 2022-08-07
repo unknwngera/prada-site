@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Header/Header';
+import Main from './Main/Main';
 import TopPage from './TopPage/TopPage';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <TopPage />
+      <Main />
 
     </div>
   );

@@ -1,0 +1,69 @@
+.for-her-title {
+    padding-left: 590px;
+    padding-bottom: 74px;
+    width: 849px;
+    height: 123px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #000000;
+
+}
+
+.for-her-products {
+    width: 1440px;
+    padding: 0 122px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.light-layers {
+    padding-top: 74px;
+    padding-bottom: 73px;
+    padding-left: 122px;
+    padding-right: 122px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.light-layers-info {
+    width: 260px;
+    height: 161px;
+
+}
+
+.light-layers-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.light-layers-body {
+    padding-top: 1px;
+    padding-bottom: 37px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.light-layers-btn {
+    width: 224px;
+    height: 57px;
+    border: 1px solid;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 57px;
+    text-align: center;
+}

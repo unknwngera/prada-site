@@ -1,0 +1,34 @@
+.img {
+    width: 365px;
+    height: 496px;
+}
+
+.colors {
+    display: block;
+    height: 32px;
+    padding-top: 16px;
+    padding-left: 40px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #848484;
+}
+
+.title {
+    display: block;
+    height: 23px;
+    padding-top: 4px;
+    padding-left: 40px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #000000;
+}
