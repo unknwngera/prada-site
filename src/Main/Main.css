@@ -67,3 +67,68 @@
     line-height: 57px;
     text-align: center;
 }
+
+.for-him-title {
+    padding-left: 510px;
+    padding-bottom: 74px;
+    width: 929px;
+    height: 123px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #000000;
+
+}
+
+.for-him-products {
+    width: 1440px;
+    padding: 0 122px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.la-pradina {
+    background-image: url(./la-pradina.png);
+    width: 1236px;
+    height: 581px;
+    margin-top: 156px;
+    margin-left: 102px;
+    padding-right: 41px;
+    padding-bottom: 41px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.la-pradina-title {
+    margin-bottom: 42px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 0%;
+    text-align: center;
+    letter-spacing: 0.35em;
+
+    color: #FFFFFF;
+}
+
+.la-pradina-btn {
+    width: 224px;
+    height: 57px;
+    background-color: #FFFFFF;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 57px;
+    text-align: center;
+
+    color: #000000;
+
+}
