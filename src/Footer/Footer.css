@@ -1,0 +1,56 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 41px 48px;
+    margin-top: 27px;
+    width: 1440px;
+    height: 321px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.footer-lists {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 50%;
+    padding: 0 72px;
+}
+
+.footer-lists-company {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-follow-us {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.links {
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 6px;
+}
+
+.footer-li {
+    margin-bottom: 12px;
+}

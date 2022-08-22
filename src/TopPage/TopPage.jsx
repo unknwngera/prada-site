@@ -5,7 +5,7 @@ import './TopPage.css'
 
 const TopPage = () => {
     return (
-        <div>
+        <div className='top-page'>
             <div className="topscreen">
                 <div className="logo">
                     <h1 className='logo-text'>PRADA</h1>
