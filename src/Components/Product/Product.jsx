@@ -2,18 +2,22 @@ import React from 'react'
 import styles from './Product.module.css'
 import bag from './bag.png'
 import { useState } from 'react'
+import { useDispatch } from 'react-redux'
+import { decrement, increment } from '../../store/toolkitSlice'
 
 const Product = (props) => {
     const [cart, setCart] = useState({ button: 'ADD', state: 'outOfCart' })
-
+    const dispatch = useDispatch()
     function changeCart(e) {
         e.preventDefault();
 
-        if (cart.state == 'outOfCart') {
+        if (cart.state === 'outOfCart') {
             setCart({ button: 'ADDED', state: 'inCart' });
+            dispatch(increment())
         }
         else {
             setCart({ button: 'ADD', state: 'outOfCart' });
+            dispatch(decrement())
         }
     }
 
