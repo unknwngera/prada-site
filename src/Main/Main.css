@@ -99,7 +99,7 @@
     padding-right: 41px;
     padding-bottom: 41px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: flex-end;
 }
 

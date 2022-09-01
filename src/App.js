@@ -11,7 +11,6 @@ function App() {
       <TopPage />
       <Main />
       <Footer />
-
     </div>
   );
 }

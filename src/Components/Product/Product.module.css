@@ -32,3 +32,20 @@
 
     color: #000000;
 }
+
+.toCart {
+    padding: 30px 40px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+
+    color: #000000;
+}
+
+.discription {
+    display: flex;
+    justify-content: space-between;
+}

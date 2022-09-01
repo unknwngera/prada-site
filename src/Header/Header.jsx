@@ -1,7 +1,6 @@
 import React from 'react'
 import heart from './heart.png'
-import bag from './bag.png'
-import './Header.css'
+import Bag from './Bag'
 const Header = () => {
     return (
         <div className='header'>
@@ -14,9 +13,7 @@ const Header = () => {
             <div className='fav'>
                 <a href="#"><img src={heart} alt="heart" /></a>
             </div>
-            <div className='bag'>
-                <a href="#"><img id='bag-img' src={bag} alt="bag" />Bag</a>
-            </div>
+            <Bag />
         </div>
     )
 }
